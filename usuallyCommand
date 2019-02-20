@@ -1,0 +1,4 @@
+Git:
+	新建分支：git checkout -b name
+	切换分支：git checkout name
+	删除分支：git branch -d name
