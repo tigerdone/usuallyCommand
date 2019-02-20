@@ -2,3 +2,10 @@ Git:
 	新建分支：git checkout -b name
 	切换分支：git checkout name
 	删除分支：git branch -d name
+	合并分支：git merge name
+	恢复删除文件：git reset HEAD ../Server 
+		   git checkout ../Server
+
+	《计算机程序设计艺术》
+	node 从零开始学习 node服务器
+	https://www.nodebeginner.org/index-zh-cn.html
