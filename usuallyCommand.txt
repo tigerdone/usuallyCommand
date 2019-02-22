@@ -1,8 +1,15 @@
-Git:
+﻿Git:
 	新建分支：git checkout -b name
 	切换分支：git checkout name
 	删除分支：git branch -d name
+	查看远程分支：git branch -a
 	合并分支：git merge name
+
+	强行覆盖本地
+	$ git fetch --all
+	$ git reset --hard origin/master 
+	$ git pull
+
 	恢复删除文件：git reset HEAD ../Server 
 		   git checkout ../Server
 
