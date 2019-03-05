@@ -4,8 +4,12 @@
 	删除分支：git branch -d name
 	查看远程分支：git branch -a
 	合并分支：git merge name
-	拉取远程分支：git checkout -b update origin/mymac
-
+	          git add .
+                  git commit -m "add"
+                  git push
+                  才算合并完毕
+        拉取远程分支：git checkout -b update origin/mymac
+   
 
 	强行覆盖本地+
 	$ git fetch --all
