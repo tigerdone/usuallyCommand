@@ -4,8 +4,10 @@
 	删除分支：git branch -d name
 	查看远程分支：git branch -a
 	合并分支：git merge name
+	拉取远程分支：git checkout -b update origin/mymac
 
-	强行覆盖本地
+
+	强行覆盖本地+
 	$ git fetch --all
 	$ git reset --hard origin/master 
 	$ git pull
@@ -16,3 +18,4 @@
 	《计算机程序设计艺术》
 	node 从零开始学习 node服务器
 	https://www.nodebeginner.org/index-zh-cn.html
+		
